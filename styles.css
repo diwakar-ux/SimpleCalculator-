@@ -1,0 +1,85 @@
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  font-family:Arial, sans-serif;
+  background:linear-gradient(135deg,#e3e3e3,#f7f7f7);
+}
+
+.header{
+  position:absolute;
+  top:25px;
+  font-size:32px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+.Container{
+  width:280px;
+  padding:25px;
+  background:#1f1f1f;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.input input{
+  width:100%;
+  padding:15px;
+  border-radius:12px;
+  border:none;
+  font-size:32px;
+  text-align:right;
+  background:#2d2d2d;
+  color:white;
+  margin-bottom:20px;
+  box-sizing:border-box;
+}
+
+.Elements-Buttons{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+}
+
+button{
+  font-size:22px;
+  border:none;
+  border-radius:50%;
+  height:55px;
+  width:55px;
+  cursor:pointer;
+  background:#333;
+  color:white;
+  transition:0.2s;
+}
+
+button:hover{
+  transform:scale(1.1);
+  background:#444;
+}
+
+.special-button{
+  background:#f9c80e;
+  color:black;
+}
+
+.special-button:hover{
+  background:#ffd60a;
+}
+
+.equal-button{
+  grid-column:span 2;
+  border-radius:12px;
+  width:100%;
+  background:#ff3b30;
+  color:white;
+}
+
+.delete-button{
+  grid-column:span 2;
+  border-radius:12px;
+  width:100%;
+  background:#ff3b30;
+  color:white;
+}

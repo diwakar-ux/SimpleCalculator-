@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div class="header">SimpleCalculator</div>
+  <div class="Container">
+   <div class="input">
+    <input id="input" readonly="">
+   </div>
+  <div class="Elements-Buttons">
+    <button onclick="ButtonElement('1')">1</button>
+    <button onclick="ButtonElement('2')">2</button>
+    <button onclick="ButtonElement('3')">3</button>
+    <button onclick="ButtonElement('4')">4</button>
+    <button onclick="ButtonElement('5')">5</button>
+    <button onclick="ButtonElement('6')">6</button>
+    <button onclick="ButtonElement('7')">7</button>
+    <button onclick="ButtonElement('8')">8</button>
+    <button onclick="ButtonElement('9')">9</button>
+    <button onclick="ButtonElement('0')">0</button>
+    <button onclick="ButtonElement('.')">.</button>
+    <button class="special-button" onclick="ButtonElement('+')">+</button>
+    <button class="special-button" onclick="ButtonElement('-')">-</button>
+    <button class="special-button" onclick="ButtonElement('*')">*</button>
+    <button class="special-button" onclick="ButtonElement('/')">/</button>
+    <button class="special-button" onclick="ClearButtonElement()">C</button>
+    <button class="equal-button" onclick="CalculateButtonElement()">=</button>
+    <button class="delete-button" onclick="deleteButtonElement()">⌫</button>
+  </div>
+  </div>
+      <script src="script.js"></script>
+  </body>
+</html>
